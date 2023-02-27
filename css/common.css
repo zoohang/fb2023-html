@@ -1,0 +1,7 @@
+/* 全局的样式 */
+.navbar{
+    background-color: #3b4dcb;
+}
+.navbar-brand img {
+    max-height: 50px;
+}
