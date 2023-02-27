@@ -2,6 +2,22 @@
 .navbar{
     background-color: #3b4dcb;
 }
-.navbar-brand img {
-    max-height: 50px;
+.navbar-brand {
+    padding: 20px 20px;
+    margin-right: 5rem;
+    height: 80px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    font-size: large;
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    border-bottom-color: #fff;
+    background-color: #3b4dcb;
+    border-bottom: 2px solid transparent;
+    border-bottom-color: #fff;
+}
+.nav.navbar-nav {
+    margin: 14px auto;
 }
