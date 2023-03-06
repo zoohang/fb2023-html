@@ -1,23 +1,27 @@
 /* 全局的样式 */
-.navbar{
-    background-color: #3b4dcb;
+.navbar {
+  background-color: #3b4dcb;
 }
 .navbar-brand {
-    padding: 20px 20px;
-    margin-right: 5rem;
-    height: 80px;
+  padding: 20px 20px;
+  margin-right: 5rem;
+  height: 80px;
 }
-.navbar-inverse .navbar-nav>li>a {
-    font-size: large;
-    color: #fff;
+.navbar-inverse .navbar-nav > li > a {
+  font-size: large;
+  color: #fff;
+  margin: auto 2rem;
 }
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #fff;
-    border-bottom-color: #fff;
-    background-color: #3b4dcb;
-    border-bottom: 2px solid transparent;
-    border-bottom-color: #fff;
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  color: #fff;
+  border-bottom-color: #fff;
+  background-color: #3b4dcb;
+  border-bottom: 4px solid transparent;
+  border-bottom-color: #fff;
+  padding: 15px 0 2px 0;
 }
 .nav.navbar-nav {
-    margin: 14px auto;
+  margin: 14px auto;
 }
