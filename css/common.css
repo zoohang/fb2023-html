@@ -1,4 +1,15 @@
 /* 全局的样式 */
+a {
+  text-decoration: none; /* 去除默认的下划线 */
+  outline: none; /* 去除旧版浏览器的点击后的外虚线框 */
+  color: #000; /* 去除默认的颜色和点击后变化的颜色 */
+}
+ul {
+  padding-left: 0;
+}
+li {
+  list-style-type: none;
+}
 .navbar {
   background-color: #3b4dcb;
 }
@@ -40,4 +51,86 @@
   background-color: rgb(0 0 0 / 8%);
   border-left: none;
   border-right: none;
+}
+
+.footer {
+  background-color: #434343;
+  color: #fff;
+  padding: 9rem;
+}
+.footer .center-block {
+  padding-bottom: 2rem;
+}
+.footer-qrcode {
+  padding: 0 5rem;
+  margin: 0;
+}
+.footer-sm-text {
+  font-size: 0.5rem;
+  margin: 4px 0 0 0;
+}
+.footer-description {
+  line-height: 2.5rem;
+  font-size: 115%;
+}
+.copyright,
+.copyright a {
+  background-color: #434343;
+  color: #fff;
+  padding-bottom: 1%;
+}
+.dongtai-title {
+  padding: 3rem 0;
+  font-size: 3rem;
+  color: #a08483;
+  letter-spacing: 2px;
+}
+.dongtai-row {
+  width: 80%;
+}
+.dongtai-row > ul > li {
+  margin-bottom: 4rem;
+}
+@media (max-width: 576px) {
+  .navbar-brand {
+    padding: 3px 15px;
+    height: auto;
+  }
+  .dongtai-row {
+    width: 96%;
+  }
+  .footer {
+    padding: 1rem;
+  }
+}
+.container-fluid-footer {
+  background-color: #434343;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.box-shadows {
+  box-shadow: 10px 10px 7px 0px #dddddd;
+  height: 24rem;
+}
+.rm-left-padding {
+  padding-left: 0;
+  max-height: 100%;
+  overflow: hidden;
+}
+.right-text {
+  min-height: 17rem;
+}
+.right-text h3,
+.right-text h3 a {
+  color: #0e132f;
+}
+.right-text p {
+  margin-top: 2rem;
+  color: #bbbbbb;
+  display: block;
+  height: 12rem;
+}
+.right-text .date {
+  color: #bbbbbb;
 }
