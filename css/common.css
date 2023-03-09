@@ -10,6 +10,10 @@ ul {
 li {
   list-style-type: none;
 }
+.container-body {
+  min-height: 60rem;
+}
+/* 导航栏 */
 .navbar {
   background-color: #3b4dcb;
 }
@@ -36,6 +40,7 @@ li {
 .nav.navbar-nav {
   margin: 14px auto;
 }
+/* 面包屑 */
 .breadcrumb > li {
   font-size: 1.5rem;
   font-weight: 500;
@@ -52,7 +57,12 @@ li {
   border-left: none;
   border-right: none;
 }
-
+/* 公共底部 */
+.container-fluid-footer {
+  background-color: #434343;
+  padding-right: 0px;
+  padding-left: 0px;
+}
 .footer {
   background-color: #434343;
   color: #fff;
@@ -79,6 +89,7 @@ li {
   color: #fff;
   padding-bottom: 1%;
 }
+/* 动态页面 */
 .dongtai-title {
   padding: 3rem 0;
   font-size: 3rem;
@@ -104,12 +115,6 @@ li {
     padding: 1rem;
   }
 }
-.container-fluid-footer {
-  background-color: #434343;
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
 .box-shadows {
   box-shadow: 10px 10px 7px 0px #dddddd;
   /* height: 24rem; */
@@ -135,17 +140,34 @@ li {
 .right-text .date {
   color: #bbbbbb;
 }
-.pagination li{
-  
-}
-.pagination>li>a, .pagination>li>span{
+/* 分页 */
+.pagination > li > a,
+.pagination > li > span {
   border-radius: 3rem;
   margin: auto 0.5rem;
   color: #ffffff;
   background-color: #cccccc;
 }
-.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li.active>a, .pagination>li.active>span, .pagination>li.active>a:hover, .pagination>li.active>span:hover{
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li.active > a,
+.pagination > li.active > span,
+.pagination > li.active > a:hover,
+.pagination > li.active > span:hover {
   background-color: #f08a01;
   color: #ffffff;
   border: 1px solid #f08a01;
+}
+/* 学校页面 */
+.zone-ul li {
+  display: inline-block;
+  margin: 1rem 0.5rem;
+}
+.zone-ul li a {
+  font-size: large;
+}
+.zone-ul li a:hover,
+.zone-ul li.active a {
+  background-color: #248ad9;
+  color: #ffffff;
 }

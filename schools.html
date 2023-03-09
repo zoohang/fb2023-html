@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>机构动态</title>
+    <title>标题</title>
     <meta name="keywords" content="这个是keyword">
     <meta name="description" content="这个是desc">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/common.css">
+    <!-- <link rel="stylesheet" href="./css/common.css"> -->
 
     <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
     <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
@@ -46,7 +47,7 @@
           </ul>
       </div>
     </nav>
-    <div class="container container-body">
+    <div class="container">
       <!--轮播start-->
       <div class="row">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -79,74 +80,42 @@
       </div>
       <!--轮播end-->
       <!-- 内容start -->
+      <div class="row">
+          <ol class="breadcrumb">
+            <li><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>&nbsp;&nbsp;<a href="/">主页</a></li>
+            <li><a href="#">院校汇总</a></li>
+            <li class="active">天津工业大学</li>
+          </ol>
+      </div>
       <!-- 正文 -->
       <div class="row">
-        <p class="dongtai-title text-center">考研资讯：权威发布最新考研信息</p>
+        <img src="./images/school-ad-img.png" class="img-responsive" alt="Image">
       </div>
-      <div class="row dongtai-row center-block">
-        <ul>
-          <li>
-            <div class="row box-shadows">
-              <div class="col-md-6 rm-left-padding">
-                <a href="#">
-                  <img src="images/dongtai-pic2.png" class="img-responsive" alt="">
-                </a>
-              </div>
-              <div class="col-md-6 right-text">
-                <h3><a href="#">全新启航Ⅱ重庆工商大学2023</a></h3>
-                <p>
-                  Bootstrap 提供了一套响应式、移动设备优先的流式栅格系统，随着屏幕或视口（viewport）尺寸的增加，系统会自动分为最多12列。它包含了易于使用的预定义类，还有强大的mixin 用于生成更具语义的布局。
-                </p>
-                <div>
-                  <span class="pull-left date">2023年3月8日</span>
-                  <span class="pull-right"><a href="#">查看详情＋</a></span>
-                </div>
-              </div>
-            </div>
-            <div class="clearfix"></div>
-          </li>
-          <li>
-            <div class="row box-shadows">
-              <div class="col-md-6 rm-left-padding">
-                <a href="#">
-                  <img src="images/dongtai-pic2.png" class="img-responsive" alt="">
-                </a>
-              </div>
-              <div class="col-md-6 right-text">
-                <h3><a href="#">全新启航Ⅱ重庆工商大学2023</a></h3>
-                <p>
-                  Bootstrap 提供了一套响应式、移动设备优先的流式栅格系统，随着屏幕或视口（viewport）尺寸的增加，系统会自动分为最多12列。它包含了易于使用的预定义类，还有强大的mixin 用于生成更具语义的布局。
-                </p>
-                <div>
-                  <span class="pull-left date">2023年3月8日</span>
-                  <span class="pull-right"><a href="#">查看详情＋</a></span>
-                </div>
-              </div>
-            </div>
-            <div class="clearfix"></div>
-          </li>
+      <div class="row">
+        <h3>地区</h3>
+        <hr>
+        <ul class="zone-ul">
+            <li><a class="btn btn-default" role="button" href="#">重庆</a></li>
+            <li class="active"><a class="btn btn-default" role="button" href="#">成都</a></li>
+            <li><a class="btn btn-default" role="button" href="#">重庆</a></li>
+            <li><a class="btn btn-default" role="button" href="#">重庆</a></li>
+            <li><a class="btn btn-default" role="button" href="#">重庆</a></li>
+            <li><a class="btn btn-default" role="button" href="#">重庆</a></li>
+        </ul>
+        <br>
+        <br>
+        <h3>天津院校</h3>
+        <hr>
+        <ul class="zone-ul">
+            <li><a class="btn btn-default" href="#">天津工业大学</a></li>
+            <li class="active"><a class="btn btn-default" href="#">南开大学</a></li>
+            <li><a class="btn btn-default" href="#">天津大学</a></li>
+            <li><a class="btn btn-default" href="#">天津理工大学</a></li>
+            <li><a class="btn btn-default" href="#">天津科技大学</a></li>
+            <li><a class="btn btn-default" href="#">天津师范大学</a></li>
         </ul>
       </div>
-      <!-- 分页开始 -->
-      <nav aria-label="Page navigation" class="text-center">
-        <ul class="pagination">
-          <li>
-            <a href="#" aria-label="Previous">
-              <span aria-hidden="true">&lt;</span>
-            </a>
-          </li>
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li class="active"><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">5</a></li>
-          <li>
-            <a href="#" aria-label="Next">
-              <span aria-hidden="true">&gt;</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
+      
       <!-- 内容end -->
     </div>
     <!-- 公共底部 start -->
